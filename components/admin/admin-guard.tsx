@@ -12,7 +12,7 @@ export function AdminGuard({ children }: { children: React.ReactNode }) {
     setAuthed(auth);
     setChecked(true);
     if (!auth) {
-      window.location.href = "/admin/login";
+      window.location.href = "/admin-login";
     }
   }, []);
 

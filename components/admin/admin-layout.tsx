@@ -27,7 +27,7 @@ export function AdminLayout({ children }: { children: React.ReactNode }) {
 
   const handleLogout = () => {
     logout();
-    window.location.href = "/admin/login";
+    window.location.href = "/admin-login";
   };
 
   return (
