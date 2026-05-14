@@ -21,25 +21,45 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.drlolo.com"),
+  metadataBase: new URL("https://www.drlolocosmetics.com"),
   title: {
     template: "%s | Dr Lolo Cosmetics",
     default: "Dr Lolo Cosmetics | Premium Skincare & Natural Beauty",
   },
   description:
-    "Dr Lolo Cosmetics offers premium skincare treatments, natural beauty products, and personalized skin consultations. Discover radiant, healthy skin with our expert team.",
+    "Dr Lolo Cosmetics offers premium skincare, glow products, beauty sets, creams, serums, soaps, lotions, and oils in Tanzania. Visit our duka la vipodozi in Kariakoo, Dar es Salaam or order via WhatsApp.",
   keywords: [
-    "skincare",
-    "cosmetics",
+    "Dr Lolo Cosmetics",
+    "duka la vipodozi",
+    "Kariakoo vipodozi",
+    "Tanzania cosmetics",
+    "Dar es Salaam beauty shop",
+    "skincare Tanzania",
     "beauty products",
-    "facial treatments",
+    "Rapid Glow",
+    "Pink Glow",
+    "Miranda Glow",
+    "Marina Gold",
+    "Evert Glow",
+    "Rana Slim",
+    "serum",
+    "face cream",
+    "body lotion",
+    "shower gel",
+    "soap",
+    "whitening oil",
+    "slimming powder",
+    "glutathione drip",
+    "beauty sets",
     "natural skincare",
-    "anti-aging",
-    "body care",
-    "skin consultation",
-    "Tanzania",
     "Kariakoo",
     "Dar es Salaam",
+    "Mafia and Jangwani Street",
+    "face care",
+    "body care",
+    "glow collection",
+    "acne soap",
+    "skin consultation",
   ],
   creator: "Dr Lolo Cosmetics",
   robots: {
@@ -56,10 +76,10 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://www.drlolo.com",
+    url: "https://www.drlolocosmetics.com",
     siteName: "Dr Lolo Cosmetics",
     title: "Dr Lolo Cosmetics | Premium Skincare & Natural Beauty",
-    description: "Premium skincare treatments and natural beauty products.",
+    description: "Premium skincare treatments and natural beauty products in Tanzania. Duka la vipodozi in Kariakoo, Dar es Salaam.",
     images: [
       {
         url: "/og-image.jpg",
@@ -76,7 +96,7 @@ export const metadata: Metadata = {
     images: ["/og-image.jpg"],
   },
   alternates: {
-    canonical: "https://www.drlolo.com",
+    canonical: "https://www.drlolocosmetics.com",
   },
   icons: {
     icon: "/Dr Lolo Favicon.png",

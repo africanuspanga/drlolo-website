@@ -5,16 +5,16 @@ import { motion } from "framer-motion";
 const ITEMS = [
   "Rapid Glow",
   "Pink Glow",
-  "Gold Glow",
+  "Marina Gold",
+  "Miranda Glow",
+  "Evert Glow",
+  "Face Care",
   "Body Care",
   "Beauty Sets",
-  "Whitening Oil",
-  "Slimming Products",
-  "Shower Gel",
-  "Face Cream",
-  "Serums",
   "Soaps",
-  "Lotions",
+  "Serums",
+  "Creams",
+  "Rana Slim",
 ];
 
 export function ServicesMarquee() {

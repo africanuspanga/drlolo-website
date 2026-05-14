@@ -44,7 +44,7 @@ export function ProductsHero() {
           className="text-lg text-white/80 max-w-2xl mx-auto mb-8"
         >
           Explore Dr Lolo Cosmetics product collections, from skincare and body
-          care to glow sets, oils, soaps, serums, and specialty beauty products.
+          care to glow sets, oils, soaps, serums, creams, and specialty beauty products.
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 20 }}

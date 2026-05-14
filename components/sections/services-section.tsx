@@ -25,11 +25,11 @@ export function ServicesSection() {
             Our Products
           </span>
           <h2 className="text-3xl sm:text-4xl font-bold text-[#1f4a24] mb-4">
-            Explore Our Glow Collection
+            Explore Our Categories
           </h2>
           <p className="text-[#5a7a5e] max-w-2xl mx-auto">
-            From serums and lotions to creams, oils, soaps, shower gels, and
-            beauty sets, Dr Lolo Cosmetics offers a wide range of products
+            From glow collections and face care to body care, beauty sets, and
+            specialty products, Dr Lolo Cosmetics offers a wide range of products
             designed for people who love a clean, polished, and radiant look.
           </p>
         </motion.div>

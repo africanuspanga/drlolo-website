@@ -64,52 +64,97 @@ export const WHY_CHOOSE = [
   },
 ];
 
-export const PRODUCT_CATEGORIES = [
+// Main product collections — used on the Products page
+export const PRODUCT_COLLECTIONS = [
   {
     id: "rapid-glow",
     title: "Rapid Glow Collection",
     description:
-      "A signature Dr Lolo product line featuring glow-focused skincare products such as serum, lotion, oil, cream, and soap options.",
-    cta: "View Rapid Glow",
+      "Rapid Glow Serum, Rapid Glow Body Lotion, Rapid Glow Face Cream, Rapid Glow Oil / Whitening Oil, Rapid Glow Soap, and Rapid Glow Full Set.",
+    cta: "Shop Rapid Glow",
     image: "/Rapid Glow.png",
   },
   {
-    id: "pink-glow",
-    title: "Pink Glow Collection",
+    id: "telesa-pink-glow",
+    title: "Telesa Pink Glow Collection",
     description:
-      "A bright and feminine product range with pink-themed creams, serums, and full set options for customers who love a soft luxury beauty look.",
-    cta: "View Pink Glow",
-    image: "/Marina Glow.png",
+      "Telesa Pink Glow Serum, Telesa Pink Glow Whitening Face Cream, Telesa Pink Glow Body Cream, and Telesa Pink Glow Full Set.",
+    cta: "Shop Pink Glow",
+    image: "/Telesa set.png",
   },
   {
-    id: "gold-glow",
-    title: "Gold Glow Collection",
+    id: "miranda-glow",
+    title: "Miranda / Mirandy Glow Collection",
     description:
-      "A premium-inspired product range with a rich gold aesthetic, ideal for customers who prefer a luxurious skincare and body care experience.",
-    cta: "View Gold Collection",
+      "Miranda Glow Lotion, Miranda Glow Advance Serum, Mirandy Glow Whitening Face Cream, Mirandy Glow Glutathione Drip / Super Whitening Product, and Miranda Glow Full Set.",
+    cta: "Shop Miranda Glow",
+    image: "/Miranda Glow set.png",
+  },
+  {
+    id: "marina-glow-gold",
+    title: "Marina Glow Gold Collection",
+    description:
+      "Marina Glow Gold 24K Shower Gel, Marina Glow Serum, Marina Glow Whitening Face Cream, and Marina Glow Gold Full Set.",
+    cta: "Shop Marina Gold",
+    image: "/Marina Glow set.png",
+  },
+  {
+    id: "evert-glow",
+    title: "Evert Glow Collection",
+    description:
+      "Evert Glow Super Whiten, Evert Glow Soap / Cream Product, and Evert Glow Skin Care Box Product.",
+    cta: "Shop Evert Glow",
     image: "/Evert Glow.png",
   },
   {
-    id: "body-care",
-    title: "Body Care & Shower Products",
+    id: "rana-slim",
+    title: "Rana Slim / Rana Slimming",
     description:
-      "Products such as shower gels, lotions, oils, and body creams for daily self-care and beauty routines.",
+      "Rana Slim Fruit Vegetable Fiber Enzyme Powder, Rana Slimming Powder, and Rana Slim Supplement Product.",
+    cta: "Shop Rana Slim",
+    image: "/Rana Slimming.png",
+  },
+];
+
+// Clean website categories — used on the homepage ServicesSection
+export const PRODUCT_CATEGORIES = [
+  {
+    id: "glow-collections",
+    title: "Glow Collections",
+    description:
+      "Rapid Glow, Pink Glow, Marina Gold, Miranda Glow, and Evert Glow — our signature glow-focused skincare ranges.",
+    cta: "View Glow Collections",
+    image: "/Rapid Glow.png",
+  },
+  {
+    id: "face-care",
+    title: "Face Care",
+    description:
+      "Face creams, serums, soaps, and acne/dark spot products designed for a radiant complexion.",
+    cta: "Shop Face Care",
+    image: "/Telesa set.png",
+  },
+  {
+    id: "body-care",
+    title: "Body Care",
+    description:
+      "Body lotions, shower gels, body creams, and oils for your daily self-care and beauty routine.",
     cta: "Shop Body Care",
-    image: "/Miranda Glow.png",
+    image: "/Miranda Glow set.png",
   },
   {
     id: "beauty-sets",
     title: "Beauty Sets",
     description:
-      "Full product sets curated for customers who want a complete routine in one package.",
-    cta: "Ask for Available Sets",
-    image: "/Telesa.png",
+      "Full skincare and glow sets curated for customers who want a complete routine in one package.",
+    cta: "View Beauty Sets",
+    image: "/Marina Glow set.png",
   },
   {
     id: "specialty",
     title: "Specialty Products",
     description:
-      "Selected products such as slimming powders, soaps, serums, and creams available depending on stock.",
+      "Rana Slim, slimming powder, and selected wellness and beauty products.",
     cta: "Check Availability",
     image: "/Rana Slimming.png",
   },
@@ -119,42 +164,42 @@ export const FEATURED_PRODUCTS = [
   {
     name: "Rapid Glow Serum",
     description:
-      "A green bottle serum from the Dr Lolo Rapid Glow collection, designed as part of a beauty routine for customers who love a radiant skincare look.",
+      "A signature serum from the Dr Lolo Rapid Glow collection, designed for customers who love a radiant skincare look.",
     cta: "Order on WhatsApp",
     image: "/Rapid Glow.png",
   },
   {
-    name: "Rapid Glow Lotion",
+    name: "Telesa Pink Glow Serum",
     description:
-      "A green pump bottle product from the Rapid Glow range, ideal for daily body care routines.",
-    cta: "Check Availability",
-    image: "/Miranda Glow.png",
+      "A brightening serum from the Telesa Pink Glow collection for a soft, feminine glow.",
+    cta: "Order on WhatsApp",
+    image: "/Telesa set.png",
   },
   {
-    name: "Whitening Oil",
+    name: "Miranda Glow Advance Serum",
     description:
-      "A golden oil product that can be presented as part of Dr Lolo's skincare and glow range.",
-    cta: "Ask for Price",
+      "An advanced serum from the Miranda Glow collection for enhanced skincare results.",
+    cta: "Order on WhatsApp",
+    image: "/Miranda Glow set.png",
+  },
+  {
+    name: "Marina Glow Gold 24K Shower Gel",
+    description:
+      "A premium shower gel from the Marina Glow Gold collection for a luxurious body care experience.",
+    cta: "Order on WhatsApp",
+    image: "/Marina Glow set.png",
+  },
+  {
+    name: "Evert Glow Super Whiten",
+    description:
+      "A powerful whitening product from the Evert Glow collection for an even-toned radiant look.",
+    cta: "Order on WhatsApp",
     image: "/Evert Glow.png",
   },
   {
-    name: "Pink Glow Set",
+    name: "Rana Slim Fruit Vegetable Fiber Enzyme Powder",
     description:
-      "A pink-themed product collection including cream and serum options, created for customers who love a soft, feminine beauty set.",
-    cta: "View Set",
-    image: "/Marina Glow.png",
-  },
-  {
-    name: "Gold Glow Set",
-    description:
-      "A luxury-inspired gold collection including body and skincare products with a premium look.",
-    cta: "Order Set",
-    image: "/Telesa.png",
-  },
-  {
-    name: "Rana Slimming Product",
-    description:
-      "A specialty product available under the Dr Lolo product range. Customers can contact the shop for current availability and guidance.",
+      "A specialty wellness product from the Rana Slim range. Contact us for availability and guidance.",
     cta: "Ask on WhatsApp",
     image: "/Rana Slimming.png",
   },

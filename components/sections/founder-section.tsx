@@ -22,7 +22,7 @@ export function FounderSection() {
           >
             <div className="relative aspect-[4/5] max-w-md mx-auto rounded-2xl overflow-hidden bg-white shadow-xl">
               <Image
-                src="/Ritha-Founder.png"
+                src="/Ritha-Founder.jpg"
                 alt="Ritha - Founder of Dr Lolo Cosmetics"
                 fill
                 className="object-cover"
